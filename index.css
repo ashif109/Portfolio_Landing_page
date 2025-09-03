@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin: 0px;
+padding: 0;
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+nav {
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    background-color:black;
+    z-index: 1000;
+    width: 100%;
+    color: white;
+}
+ul{
+    display: flex;
+    margin: 10px;
+    padding: 0em;
+    gap: 2em;
+list-style: none;
+
+}
+ul a{
+color: white;
+text-decoration: none;}
+li{
+font-size: 20px;
+font-weight: 450;}
+nav button {
+    z-index: 10;
+    position: relative;
+    width: 77px;
+    height: 30px;
+    border-radius: 8px;
+}
+.contains{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items:center ;
+margin: 20px;
+padding: 30px;}
+.image img{
+    display: block;
+border-radius: 10px;
+width: 20vw;
+justify-content: flex-end;
+text-align: right;
+object-fit: cover;
+margin-top: 80px; 
+box-shadow: 9px 12px 32.5px rgb(10, 204, 186);
+}
+.intro-text{
+    position: relative;
+left: 40px;
+    top: 7vh;
+    max-width: 55%;
+display: flex;
+flex-direction: column;
+    gap: 20px;
+    max-height: 55vh;
+}
+.btn{
+height: 39px;
+    width: 354px;
+font-weight: 470;
+font-size: 15px;
+border-radius:3px;
+border: 2px solid rgb(5, 104, 186);
+    transition: transform 0.3s ease;
+}
+.btn:hover{
+transform: scale(1.1);
+box-shadow: 9px 12px 32.5px rgb(10, 204, 186);
+  box-shadow: rgb(10, 204, 186) 13px 7px 25px -1px;
+}
+    .btn-red{
+    width: 135px;
+background-color: black;
+color: white;
+border-radius: 6px;
+}
+    .btn-red2{
+        /* position: relative; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    width: 135px;
+background-color: black;
+color: white;
+border-radius: 6px;
+height: 48px;}
+.box2{
+height: 20vh;}
+.text-Area{
+     display: flex; 
+     flex-wrap: wrap;   
+  flex-direction: column;
+  justify-content: center; 
+  gap: 20px;  
+  align-items: center;
+  max-width: 100%;
+}
+body{
+background-color: black;
+color: white;}
+.box-space{
+background-color: rgb(62, 62, 62);
+height: 43vh;}
+
+.baatna{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items:center ;
+/* margin: 0px;
+padding: 0px; */
+}
+.card3 {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+  max-width: 400px;
+  position:relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+.card3 h2 {
+  margin-top: 0;
+}
+
+.card3 h3 {
+  margin: 10px 0;
+  font-weight: normal;
+  color:white;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
